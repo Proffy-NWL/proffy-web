@@ -50,12 +50,12 @@ const Home: React.FC = () => {
             <Bold>O que deseja fazer?</Bold>
           </Welcome>
           <Actions>
-            <Link href="perfil-trabalho">
+            <Link href="/jobProfile">
               <Estudy>
                 <FiBookOpen size={20} /> Estudar
             </Estudy>
             </Link>
-            <Link href="perfil-trabalho">
+            <Link href="/jobProfile">
               <Job>
                 <FiMonitor size={20} /> Dar Aulas
             </Job>
